@@ -20,6 +20,11 @@ body {
     padding: 4rem 1rem;
 }
 
+/* Liens */
+a:visited{
+    color:blue
+}
+
 /* Conteneur flex de l’en‑tête : photo + texte côte à côte */
 .header-content {
     display: flex;
@@ -92,4 +97,5 @@ body {
         flex-direction: column;
         text-align: center;
     }
+
 }
